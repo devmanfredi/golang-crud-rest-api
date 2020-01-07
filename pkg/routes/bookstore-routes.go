@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/example/crud-restapi-golang/pkg/controllers"
-	"github.com/gorilla/mux"
+	. "github.com/gorilla/mux"
 )
 
 var RegisterBookStoreRoutes = func(router *Router) {
